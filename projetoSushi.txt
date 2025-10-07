@@ -1,0 +1,88 @@
+1. Configuração do projeto
+
+Crie o projeto React (pode ser com Vite ou Create React App).
+
+Instale uma lib de estilização (ex: Tailwind ou CSS puro, como preferir).
+
+Limpe os arquivos iniciais que não vai usar (App.css, logos, etc.) para começar do zero.
+
+🧱 2. Estrutura de pastas
+
+Monte uma estrutura clara, por exemplo:
+
+src/
+ ├─ components/
+ │   ├─ SushiCard.jsx
+ │   ├─ SearchBar.jsx
+ │   └─ CategoryFilter.jsx
+ ├─ data/
+ │   └─ sushis.js
+ ├─ pages/
+ │   └─ Home.jsx
+ ├─ App.jsx
+ └─ index.jsx
+
+
+👉 Isso vai facilitar a manutenção e a reutilização de componentes.
+
+📝 3. Criar o arquivo de dados
+
+Faça um arquivo com uma lista (array de objetos) representando os pratos.
+
+Cada objeto deve ter pelo menos: id, nome, descricao, imagem, categoria.
+
+Use nomes e categorias reais para facilitar os testes.
+
+🧩 4. Criar o componente de card
+
+Defina os elementos que cada card vai mostrar: imagem, nome, descrição.
+
+Pense no layout responsivo: grid ou flex, espaçamento, largura mínima etc.
+
+🔍 5. Criar barra de busca
+
+Adicione um input controlado (com estado) para armazenar o termo digitado.
+
+Filtre a lista de pratos em tempo real com base no nome.
+
+Planeje: o filtro deve ignorar maiúsculas/minúsculas e funcionar mesmo se o usuário digitar só parte do nome.
+
+🧭 6. Criar filtros por categoria
+
+Faça uma lista de categorias únicas (ex: Hot, Sashimi, Temaki).
+
+Crie botões ou “tabs” clicáveis que atualizam o estado da categoria selecionada.
+
+Combine esse filtro com a busca: o resultado final deve respeitar ambos.
+
+📱 7. Montar a página Home
+
+Importe os componentes (cards, busca, filtro).
+
+Centralize a lógica de filtragem ali (estado com lista de sushis + termo de busca + categoria ativa).
+
+Renderize a lista filtrada.
+
+🧠 8. Tornar tudo responsivo
+
+Defina um grid que se adapta a diferentes tamanhos de tela.
+
+Ajuste tamanhos de fonte, espaçamentos e cards para celular e desktop.
+
+Teste no navegador com o modo responsivo.
+
+🌟 9. Refinamentos
+
+Adicione animações leves (hover nos cards, foco no input).
+
+Ajuste a hierarquia visual (nomes em destaque, descrições mais suaves).
+
+Teste casos extremos: nenhuma busca encontrada, categorias vazias, texto longo.
+
+🚀 10. Finalização
+
+Faça um review geral: organização de pastas, nomes claros, componentes bem separados.
+
+Faça deploy no Vercel ou Netlify.
+
+Teste em dispositivos diferentes.
