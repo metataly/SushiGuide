@@ -1,4 +1,4 @@
-let sushis = [
+export const sushis = [
   { 
     id: 1,
     imagem: "img",
