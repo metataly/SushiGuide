@@ -1,6 +1,7 @@
-import Header from "./components/header/header"
+import Header from "./components/header/header";
 import { useState } from "react";
 import SushiContent from "./components/sushiContent/sushiContent";
+import "./App.css";
 
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
   return (
     <>
       <Header busca={busca} setBusca={setBusca}/>
-      <SushiContent busca={busca}/>
+      <section>
+        <SushiContent busca={busca}/>
+      </section>
     </>
   )
 }
