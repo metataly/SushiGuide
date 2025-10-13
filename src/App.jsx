@@ -1,6 +1,6 @@
 import Header from "./components/header/Header";
 import { useState } from "react";
-import SushiContent from "./components/sushiContent/sushiContent";
+import SushiContent from "./components/sushiContent/SushiContent";
 import "./App.css";
 
 
