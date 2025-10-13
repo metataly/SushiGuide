@@ -1,4 +1,4 @@
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 import { useState } from "react";
 import SushiContent from "./components/sushiContent/sushiContent";
 import "./App.css";
