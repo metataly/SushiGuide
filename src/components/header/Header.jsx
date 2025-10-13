@@ -1,10 +1,10 @@
-import style from "../header/Header.module.css"
+import "./Header.css"
 
 export default function Header ({busca, setBusca}){
 
     return(
         <header>
-            <img src="../src/assets/logo.jpg" alt="SushiGuide" title="SushiGuide" />
+            <img src="/logo.jpg" alt="SushiGuide" title="SushiGuide" />
             <form>
                 <input type="text"
                  placeholder=" 🔍︎  Buscar"
