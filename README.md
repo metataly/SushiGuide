@@ -1,16 +1,81 @@
-# React + Vite
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/df/80/20/df802044a701e120ea16933120f2a14c.jpg" width="500" alt="Banner Sushi Menu">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">🍣 Sushi Guide — Cardápio Online de Sushi</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  <b>Um cardápio digital para amantes de sushi 🍤🥢</b><br>
+  Visualize cada prato com imagens e descrições detalhadas antes de pedir.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📖 Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O **Sushi Guide** é um cardápio online que apresenta sushis e pratos japoneses com **imagens, nomes e descrições**.  
+Feito para estudos de front-end com **React**.
 
-## Expanding the ESLint configuration
+> 🧡 “Veja, escolha e saboreie com os olhos!”
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Funcionalidades
+
+🍣 Exibição de sushis com foto, nome e descrição  
+🔍 Busca e filtro por nome 
+📱 Layout 100% responsivo (mobile-first)  
+💾 Integração com **Fake API**  
+🧭 Categorias de pratos organizadas por tipo  
+
+---
+
+## 🧩 Categorias do Cardápio
+
+| 🍱 Categoria | Exemplos |
+|--------------|-----------|
+| **Makis** (rolinhos) | Kappamaki, Sake maki, Tekkamaki |
+| **Uramakis** (rolinhos invertidos) | California, Philadelphia, Hot Roll |
+| **Temakis** (cones de alga) | Temaki de Salmão, Temaki de Kani |
+| **Joys (Jhou)** (cremosos) | Joy de Salmão, Joy de Atum |
+| **Entradas e Especiais** | Shimeji, Harumaki, Carpaccio |
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+| Tipo | Ferramenta |
+|------|-------------|
+| 🖥️ Front-end | HTML, CSS, React |
+| ⚙️ Dados | Array de Objetos |
+| 🎨 Estilos | CSS |
+| 🖼️ Imagens | Pinterest |
+
+---
+
+## ⚙️ Como Rodar o Projeto
+
+### 1️⃣ Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/sushi-menu.git
+cd sushi-menu
+```
+### 2️⃣ Instale as dependências
+```bash
+npm install
+```
+
+### 3️⃣ Inicie o app
+```bash
+npm run dev
+```
+
+
+## 👩‍🍳 Autora
+
+Feito com ❤️ por Nathaly
+📧 Entre em contato para colaborações, ideias e melhorias!
+
+---
+Este projeto é de uso livre para estudo, portfólio e aprendizado.
+Sinta-se à vontade para usar, modificar e melhorar 🍱✨
