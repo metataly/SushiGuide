@@ -35,10 +35,11 @@ input {
     }
 
     form {
-        width: 45%;
+        width: 60%;
     }
 
     input {
-        padding: 5%;
+        padding: 6%;
+        width: 100%;
     }
 }
