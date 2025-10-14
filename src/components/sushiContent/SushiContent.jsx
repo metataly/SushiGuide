@@ -9,6 +9,7 @@ export default function SushiContent({busca}){
         <div className={styles.card}>
          {content.map((item) => (
                 <div className={styles.content} key = {item.id}>
+                    <img src={item.imagem} />
                     <h2>{item.nome}</h2>
                     <p>{item.descricao}</p>
                 </div> 
